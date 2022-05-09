@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Media/embedding: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      audio {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Basic audio embed</h1>
+
+    <audio controls>
+      <source src="source/viper_m3.ogg" type="audio/ogg">
+      <source src="source/viper_ogg.mp3" type="audio/mp3">
+      <p>In case your browser doesn't support<a href="source/viper_m3.ogg">Link to music</a></p>
+    </audio>
+    <video controls width="320" height="240" muted >
+      <source src="source/rabbit320.mp4" type="video/mp4">
+      <source src="source/rabbit320_w.webm" type="video/webm">
+      <track kind="subtitles" lang="es" src="sub/sub.vtt" label="eng">
+      <p>In case Video can't be played<a href="source/rabbit320_w.webm">Link To Videos</a></p>
+    </video>
+  </body>
+
+</html>
