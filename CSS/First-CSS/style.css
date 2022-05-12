@@ -1,0 +1,21 @@
+/* Create your test CSS here */
+
+.special {
+  color: red;
+  animation: forwards;
+}
+/* this is CSS comment */
+
+
+div{
+  background: red url(bg-graphic.png) 10px 10px repeat-x fixed;
+}
+p {
+  background-color: pink;
+}
+
+@media (min-width: 700px) {
+  p {
+    background-color: blue;
+  }
+}
