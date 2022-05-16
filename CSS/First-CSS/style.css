@@ -1,21 +1,41 @@
-/* Create your test CSS here */
 
-.special {
-  color: red;
-  animation: forwards;
-}
-/* this is CSS comment */
-
-
-div{
-  background: red url(bg-graphic.png) 10px 10px repeat-x fixed;
-}
-p {
-  background-color: pink;
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  margin: 0;
 }
 
-@media (min-width: 700px) {
-  p {
-    background-color: blue;
-  }
+h1 {
+  color: hotpink;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 10px dotted purple ;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic ;
+}
+
+.job-title {
+  color: #999999;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: #fb6542;
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+ul{
+  background-color: #eeeeee;
+  border: 5px solid purple;
+  padding: 3% 13%;
 }
