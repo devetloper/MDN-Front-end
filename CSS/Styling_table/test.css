@@ -1,0 +1,33 @@
+/*
+Align headings and data for columns containing numbers right.
+Align headings and data for columns containing text left.
+Add a top and bottom border, plus a border above the footer.
+Stripe every odd row of the main table.
+*/
+table {
+  border-collapse: collapse;
+}
+
+tbody td:nth-child(2), tbody td:nth-child(3) {
+  text-align: right;
+}
+
+thead, tbody th, tbody td:nth-child(4) {
+  text-align: left;
+}
+
+tfoot, thead  {
+  border-top: 5px solid green;
+}
+
+tfoot {
+  border-bottom: 5px solid blue;
+}
+
+table tr:nth-child(odd) {
+  background-color: bisque;
+}
+
+table tr:nth-child(even) {
+  background-color: green;
+}
