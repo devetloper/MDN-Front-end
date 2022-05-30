@@ -1,0 +1,152 @@
+/*font*/
+@font-face {
+  font-family: 'six_thousandregular';
+  src: url('fonts/six_thousand-webfont.woff2') format('woff2'),
+       url('fonts/six_thousand-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'marcovaldo_trialregular';
+  src: url('fonts/marcovaldo-regular-trial-webfont.woff2') format('woff2'),
+        url('fonts/marcovaldo-regular-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'marcovaldo_trialregular', cursive;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  font-size: 2.5rem;
+}
+
+footer {
+  clear: both;
+  font-size: 1.6rem;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+h1, h2 {
+  font-family: 'six_thousandregular', serif;
+  font-size: 2em;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+section p {
+  text-indent: 20px;
+}
+
+section a {
+  color:#a66;
+  outline: none;
+}
+
+section a:link {
+  color:#a66;
+}
+
+section a:visited {
+  color:red;
+}
+
+section a:focus {
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+}
+
+section a:active {
+  background-color: brown;
+  color: white;
+}
+
+section a[href^='https'] {
+  background-image: url(external-link-52.png);
+  background-position: 100%  0;
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+}
+
+aside a {
+  color:brown
+}
+
+aside ul{
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+aside ul li{
+  padding-left: 2rem;
+  background-image: url(external-link-52.png);
+  background-position: 16px 16px ;
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+}
+
+nav ul li  {
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #a66;
+  margin-bottom: 30px ;
+  color: wheat;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}
